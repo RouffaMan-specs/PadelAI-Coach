@@ -1,3 +1,4 @@
+
 name: Extract project ZIP
 
 on:
@@ -10,13 +11,14 @@ jobs:
   extract:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Extract ZIP
         run: |
           mkdir extracted
-          rm -rf extracted/.github/workflows
           unzip -q PadelAICoach-GitHub-Free-Build.zip -d extracted
+          rm -rf extracted/.github/workflows
           cp -R extracted/. .
           rm -rf extracted
 
