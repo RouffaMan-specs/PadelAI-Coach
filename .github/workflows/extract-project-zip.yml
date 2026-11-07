@@ -15,6 +15,7 @@ jobs:
       - name: Extract ZIP
         run: |
           mkdir extracted
+          rm -rf extracted/.github/workflows
           unzip -q PadelAICoach-GitHub-Free-Build.zip -d extracted
           cp -R extracted/. .
           rm -rf extracted
