@@ -1,0 +1,77 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+
+/* Begin PBXBuildFile section */
+  A10000000000000000000001 /* PadelAICoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001; };
+  A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002; };
+  A10000000000000000000003 /* MatchRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003; };
+  A10000000000000000000004 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004; };
+  A10000000000000000000005 /* MatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005; };
+  A10000000000000000000006 /* RallyDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006; };
+  A10000000000000000000007 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007; };
+  A10000000000000000000008 /* MatchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008; };
+  A10000000000000000000009 /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+  B10000000000000000000001 /* PadelAICoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadelAICoachApp.swift; sourceTree = "<group>"; };
+  B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+  B10000000000000000000003 /* MatchRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchRecord.swift; sourceTree = "<group>"; };
+  B10000000000000000000004 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+  B10000000000000000000005 /* MatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewModel.swift; sourceTree = "<group>"; };
+  B10000000000000000000006 /* RallyDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyDetectionService.swift; sourceTree = "<group>"; };
+  B10000000000000000000007 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+  B10000000000000000000008 /* MatchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScreen.swift; sourceTree = "<group>"; };
+  B10000000000000000000009 /* HistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreen.swift; sourceTree = "<group>"; };
+  B10000000000000000000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+  C10000000000000000000001 /* PadelAICoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadelAICoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+  D10000000000000000000001 = {isa = PBXGroup; children = (D10000000000000000000002, D10000000000000000000003, D10000000000000000000004, B10000000000000000000010,); sourceTree = "<group>"; };
+  D10000000000000000000002 /* Sources */ = {isa = PBXGroup; children = (B10000000000000000000001, B10000000000000000000002, D10000000000000000000005, D10000000000000000000006, D10000000000000000000007, D10000000000000000000008, D10000000000000000000009,); path = .; sourceTree = "<group>"; };
+  D10000000000000000000003 /* Products */ = {isa = PBXGroup; children = (C10000000000000000000001,); name = Products; sourceTree = "<group>"; };
+  D10000000000000000000004 /* Models */ = {isa = PBXGroup; children = (B10000000000000000000003,); path = Models; sourceTree = "<group>"; };
+  D10000000000000000000005 /* Camera */ = {isa = PBXGroup; children = (B10000000000000000000004,); path = Camera; sourceTree = "<group>"; };
+  D10000000000000000000006 /* Match */ = {isa = PBXGroup; children = (B10000000000000000000005,); path = Match; sourceTree = "<group>"; };
+  D10000000000000000000007 /* Services */ = {isa = PBXGroup; children = (B10000000000000000000006,); path = Services; sourceTree = "<group>"; };
+  D10000000000000000000008 /* Views */ = {isa = PBXGroup; children = (B10000000000000000000007, B10000000000000000000008, B10000000000000000000009,); path = Views; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+  E10000000000000000000001 /* PadelAICoach */ = {isa = PBXNativeTarget; buildConfigurationList = F10000000000000000000002; buildPhases = (E1000000000000000000011A, E1000000000000000000011B, E1000000000000000000011C,); buildRules = (); dependencies = (); name = PadelAICoach; productName = PadelAICoach; productReference = C10000000000000000000001; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+  E10000000000000000000002 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600; TargetAttributes = {E10000000000000000000001 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = F10000000000000000000001; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en,); mainGroup = D10000000000000000000001; productRefGroup = D10000000000000000000003; projectDirPath = ""; projectRoot = ""; targets = (E10000000000000000000001,); };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+  E1000000000000000000011A = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+  E1000000000000000000011B = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+  E1000000000000000000011C = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* End PBXNativeTarget section */
+
+/* Begin XCBuildConfiguration section */
+  F10000000000000000000001 /* Project configs */ = {isa = XCConfigurationList; buildConfigurations = (F10000000000000000000011, F10000000000000000000012,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  F10000000000000000000002 /* Target configs */ = {isa = XCConfigurationList; buildConfigurations = (F10000000000000000000013, F10000000000000000000014,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  F10000000000000000000011 = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; SDKROOT = iphoneos; }; name = Debug; };
+  F10000000000000000000012 = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; SDKROOT = iphoneos; }; name = Release; };
+  F10000000000000000000013 = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; PRODUCT_BUNDLE_IDENTIFIER = com.example.PadelAICoach; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = 1; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; }; name = Debug; };
+  F10000000000000000000014 = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; PRODUCT_BUNDLE_IDENTIFIER = com.example.PadelAICoach; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = 1; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+ };
+ rootObject = E10000000000000000000002;
+}
